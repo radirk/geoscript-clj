@@ -1,17 +1,17 @@
-(defproject geoscript "1.0.0-SNAPSHOT"
+(defproject geoscript "1.0.0"
   :description "Clojure version of the geoscript project"
-  :repositories { "OpenGeo Maven Repository" "http://repo.opengeo.org"}
+  :repositories { "OpenGeo Maven Repository" "https://repo.boundlessgeo.com/main"}
   :url "http://geoscript.org/"
   :main geoscript.core
   :dependencies [[org.clojure/clojure "1.2.1"]
      	         [org.clojure/data.json "0.1.1"]
-                 [org.geotools/gt-main "8-SNAPSHOT"]
-                 [org.geotools/gt-swing "8-SNAPSHOT"]                 
-                 [org.geotools/gt-epsg-hsql "8-SNAPSHOT"]
-                 [org.geotools/gt-referencing "8-SNAPSHOT"]
-                 [org.geotools.jdbc/gt-jdbc-postgis "8-SNAPSHOT"] 
-                 [org.geotools.jdbc/gt-jdbc-h2 "8-SNAPSHOT"]                 
-                 [org.geotools/gt-geojson "8-SNAPSHOT"]
-                 [org.geotools/gt-charts "8-SNAPSHOT"]
-                 [org.geotools/gt-render "8-SNAPSHOT"]
-                 [org.geotools/gt-shapefile "8-SNAPSHOT"]])
+                 [org.geotools/gt-main "15.1"]
+                 [org.geotools/gt-swing "15.1"]                 
+                 [org.geotools/gt-epsg-hsql "15.1"]
+                 [org.geotools/gt-referencing "15.1"]
+                 [org.geotools.jdbc/gt-jdbc-postgis "15.1"] 
+                 [org.geotools.jdbc/gt-jdbc-h2 "15.1"]                 
+                 [org.geotools/gt-geojson "15.1"]
+                 [org.geotools/gt-charts "15.1"]
+                 [org.geotools/gt-render "15.1"]
+                 [org.geotools/gt-shapefile "15.1"]])
